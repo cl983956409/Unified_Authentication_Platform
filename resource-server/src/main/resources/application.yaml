@@ -1,0 +1,8 @@
+server:
+  port: 8091
+  servlet:
+    context-path: /resource-server
+
+spring:
+  application:
+    name: resource-server

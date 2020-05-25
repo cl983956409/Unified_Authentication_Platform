@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>统一认证平台 DEMO</title>
+</head>
+<body>
+统一认证平台 DEMO
+
+<a href="http://172.23.15.208:8090/auth-server/oauth/authorize?client_id=javaboy&response_type=code&scope=all&redirect_uri=http://172.23.15.208:8092/index.html">第三方登录</a>
+
+<h1 th:text="${msg}"></h1>
+</body>
+</html>
